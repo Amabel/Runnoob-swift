@@ -19,4 +19,8 @@ if let age = oAge {
     print(age)
 }
 
+let str1 = ""
+Int("")
+
+
 
