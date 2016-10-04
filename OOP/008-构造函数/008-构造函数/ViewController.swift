@@ -15,9 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         // 实例化 person
-        let p = Person()
-        
-        print(p.name)
+//        let p = Person()
+        let s = Student()
+    
+        print(s.name + "---" + s.no)
     }
 
     override func didReceiveMemoryWarning() {

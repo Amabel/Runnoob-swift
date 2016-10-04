@@ -1,5 +1,5 @@
 //
-//  Person.swift
+//  Student.swift
 //  008-构造函数
 //
 //  Created by Weibin LUO on 10/4/16.
@@ -8,15 +8,16 @@
 
 import UIKit
 
-class Person: NSObject {
-    
-    var name: String
+class Student: Person {
+
+    var no: String
     
     override init() {
-        print("person.init")
-
-        name = "zhang"
+        print("student.init")
+        
+        no = "001"
         
         super.init()
     }
+    
 }

@@ -13,6 +13,7 @@
 		57D256831DA37BAF0049DEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D256821DA37BAF0049DEE2 /* Assets.xcassets */; };
 		57D256861DA37BAF0049DEE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D256841DA37BAF0049DEE2 /* LaunchScreen.storyboard */; };
 		57D2568E1DA37BE00049DEE2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2568D1DA37BE00049DEE2 /* Person.swift */; };
+		57D256901DA380B20049DEE2 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2568F1DA380B20049DEE2 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		57D256851DA37BAF0049DEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57D256871DA37BAF0049DEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D2568D1DA37BE00049DEE2 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
+		57D2568F1DA380B20049DEE2 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				57D2567B1DA37BAF0049DEE2 /* AppDelegate.swift */,
 				57D2567D1DA37BAF0049DEE2 /* ViewController.swift */,
+				57D2568F1DA380B20049DEE2 /* Student.swift */,
 				57D2568D1DA37BE00049DEE2 /* Person.swift */,
 				57D2567F1DA37BAF0049DEE2 /* Main.storyboard */,
 				57D256821DA37BAF0049DEE2 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 				57D2568E1DA37BE00049DEE2 /* Person.swift in Sources */,
 				57D2567E1DA37BAF0049DEE2 /* ViewController.swift in Sources */,
 				57D2567C1DA37BAF0049DEE2 /* AppDelegate.swift in Sources */,
+				57D256901DA380B20049DEE2 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
