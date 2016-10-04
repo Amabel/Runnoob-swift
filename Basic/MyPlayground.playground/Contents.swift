@@ -10,3 +10,13 @@ print("test")
 
 let a = 1 + 2
 
+let oAge: Int? = 10
+
+print(oAge)
+
+if let age = oAge {
+    print(oAge)
+    print(age)
+}
+
+
