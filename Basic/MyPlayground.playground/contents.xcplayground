@@ -3,5 +3,6 @@
     <pages>
         <page name='Access Control'/>
         <page name='Untitled Page'/>
+        <page name='View'/>
     </pages>
 </playground>

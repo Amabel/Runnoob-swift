@@ -26,8 +26,5 @@ class A {
     
 }
 
-print(A.selfertyuiop@[
-ewrtyuiop@[
-Z]])
 
 
