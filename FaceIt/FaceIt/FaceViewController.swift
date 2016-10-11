@@ -20,6 +20,16 @@ class FaceViewController: UIViewController {
     @IBOutlet weak var faceView: FaceView! {
         didSet {
             faceView.addGestureRecognizer(UIPinchGestureRecognizer(target: faceView, action: #selector(FaceView.changeScale(_:))))
+            
+            let happierSwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(FaceViewController.increaseHappiness))
+            happierSwipeGestureRecognizer.direction = .Up
+            faceView.addGestureRecognizer(happierSwipeGestureRecognizer)
+            
+            let sadderSwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(FaceViewController.decreaseHappiness))
+            sadderSwipeGestureRecognizer.direction = .Down
+            faceView.addGestureRecognizer(sadderSwipeGestureRecognizer)
+            
+            updateUI()
         }
     }
     
