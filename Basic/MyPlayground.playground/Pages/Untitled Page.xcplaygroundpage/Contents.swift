@@ -22,5 +22,12 @@ if let age = oAge {
 let str1 = ""
 Int("")
 
+class A {
+    
+}
+
+print(A.selfertyuiop@[
+ewrtyuiop@[
+Z]])
 
 
