@@ -14,6 +14,14 @@ class ViewController: UIViewController {
     
     private var userIsInTheMiddleOfTyping = false
     
+    
+    override func viewDidLoad() {
+        brain.addUnaryOperation(symbol: "Z") { [ weak weakSelf = self ] in
+            weakSelf?.display.textColor = UIColor.red
+            return sqrt($0)
+        }
+    }
+    
     @IBAction private func touchDigit(_ sender: UIButton) {
         
         let digit = sender.currentTitle!

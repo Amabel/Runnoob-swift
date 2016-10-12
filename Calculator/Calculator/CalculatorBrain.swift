@@ -31,6 +31,10 @@ class CalculatorBrain {
         "=" : Operation.Equals
     ]
     
+    func addUnaryOperation(symbol: String, operation: @escaping (Double) -> Double) {
+        operations[symbol] = Operation.UnaryOperation(operation)
+    }
+    
     private enum Operation {
         case Constant(Double)
         case UnaryOperation((Double) -> Double)
