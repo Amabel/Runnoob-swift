@@ -10,12 +10,12 @@ import UIKit
 
 class CassiniViewController: UIViewController, UISplitViewControllerDelegate {
 
-    private struct StoryBoard {
+    private struct Storyboard {
         static let ShowImageSegue = "Show Image"
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == StoryBoard.ShowImageSegue {
+        if segue.identifier == Storyboard.ShowImageSegue {
             if let ivc = segue.destinationViewController.contentViewController as? ImageViewController {
                 let imageName = (sender as? UIButton)?.currentTitle
                 ivc.imageURL = DemoURL.NASAImageNamed(imageName)
