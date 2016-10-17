@@ -105,6 +105,34 @@ class FaceViewController: UIViewController
         }
     }
     
+    private struct Animation {
+        static let ShakeAngle = CGFloat(M_PI/8)
+        static let ShakeDuration = 0.5
+    }
+    @IBAction func headShake(sender: UITapGestureRecognizer) {
+        UIView.animateWithDuration(Animation.ShakeDuration, animations: {
+            self.faceView.transform = CGAffineTransformRotate(self.faceView.transform, Animation.ShakeAngle)},
+                                   completion: { (finished) in
+                                    if finished {
+                                        UIView.animateWithDuration(Animation.ShakeDuration, animations: {
+                                            self.faceView.transform = CGAffineTransformRotate(self.faceView.transform, -Animation.ShakeAngle*2)
+                                            },
+                                            completion: { (finished) in
+                                                if finished {
+                                                    UIView.animateWithDuration(Animation.ShakeDuration, animations: {
+                                                        self.faceView.transform = CGAffineTransformRotate(self.faceView.transform, Animation.ShakeAngle)
+                                                        },
+                                                        completion: { (finished) in
+                                                            if finished {
+                                                                
+                                                            }
+                                                    })
+                                                }
+                                        })
+                                    }
+        })
+    }
+    
     // ADDED AFTER LECTURE 5
     // gesture handler to change the Model's brows with a rotation gesture
     func changeBrows(recognizer: UIRotationGestureRecognizer) {
