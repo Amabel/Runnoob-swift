@@ -120,6 +120,7 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <state key="normal" title="8"/>
                                                         <connections>
+                                                            <action selector="fun1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wf0-aU-ae5"/>
                                                             <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j8m-vd-sqn"/>
                                                         </connections>
                                                     </button>

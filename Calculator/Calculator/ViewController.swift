@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     
     private var userIsInTheMiddleOfTyping = false
     
-    
     override func viewDidLoad() {
         brain.addUnaryOperation(symbol: "Z") { [ weak weakSelf = self ] in
             weakSelf?.display.textColor = UIColor.red

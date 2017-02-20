@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C68B1D1E51BA290080DC09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C68B1C1E51BA290080DC09 /* AppDelegate.swift */; };
+		57C68B1F1E51BA290080DC09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C68B1E1E51BA290080DC09 /* ViewController.swift */; };
+		57C68B221E51BA290080DC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C68B201E51BA290080DC09 /* Main.storyboard */; };
+		57C68B241E51BA290080DC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C68B231E51BA290080DC09 /* Assets.xcassets */; };
+		57C68B271E51BA290080DC09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C68B251E51BA290080DC09 /* LaunchScreen.storyboard */; };
+		57C68B2F1E51BA380080DC09 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 57C68B2E1E51BA380080DC09 /* Podfile */; };
+		66C5B9D635274CAC54BACFC5 /* libPods-CloudIMTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 350723CCD423B36A1765D136 /* libPods-CloudIMTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		350723CCD423B36A1765D136 /* libPods-CloudIMTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudIMTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C68B191E51BA290080DC09 /* CloudIMTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudIMTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C68B1C1E51BA290080DC09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57C68B1E1E51BA290080DC09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57C68B211E51BA290080DC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57C68B231E51BA290080DC09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57C68B261E51BA290080DC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57C68B281E51BA290080DC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C68B2E1E51BA380080DC09 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		57C68B301E5321950080DC09 /* CloudIMTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudIMTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		ABE5539AF1C829D19EF1B6E3 /* Pods-CloudIMTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudIMTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudIMTest/Pods-CloudIMTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F8A8E4DB452F4F918497099F /* Pods-CloudIMTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudIMTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudIMTest/Pods-CloudIMTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57C68B161E51BA290080DC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C5B9D635274CAC54BACFC5 /* libPods-CloudIMTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08653738A1BA3A147D356317 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABE5539AF1C829D19EF1B6E3 /* Pods-CloudIMTest.debug.xcconfig */,
+				F8A8E4DB452F4F918497099F /* Pods-CloudIMTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57C68B101E51BA290080DC09 = {
+			isa = PBXGroup;
+			children = (
+				57C68B2E1E51BA380080DC09 /* Podfile */,
+				57C68B1B1E51BA290080DC09 /* CloudIMTest */,
+				57C68B1A1E51BA290080DC09 /* Products */,
+				08653738A1BA3A147D356317 /* Pods */,
+				9E3A3C97ED36BC951D73B216 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57C68B1A1E51BA290080DC09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C68B191E51BA290080DC09 /* CloudIMTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C68B1B1E51BA290080DC09 /* CloudIMTest */ = {
+			isa = PBXGroup;
+			children = (
+				57C68B1C1E51BA290080DC09 /* AppDelegate.swift */,
+				57C68B1E1E51BA290080DC09 /* ViewController.swift */,
+				57C68B201E51BA290080DC09 /* Main.storyboard */,
+				57C68B231E51BA290080DC09 /* Assets.xcassets */,
+				57C68B251E51BA290080DC09 /* LaunchScreen.storyboard */,
+				57C68B281E51BA290080DC09 /* Info.plist */,
+				57C68B301E5321950080DC09 /* CloudIMTest-Bridging-Header.h */,
+			);
+			path = CloudIMTest;
+			sourceTree = "<group>";
+		};
+		9E3A3C97ED36BC951D73B216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				350723CCD423B36A1765D136 /* libPods-CloudIMTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57C68B181E51BA290080DC09 /* CloudIMTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C68B2B1E51BA290080DC09 /* Build configuration list for PBXNativeTarget "CloudIMTest" */;
+			buildPhases = (
+				BB33A48BE85D81CC78952513 /* [CP] Check Pods Manifest.lock */,
+				57C68B151E51BA290080DC09 /* Sources */,
+				57C68B161E51BA290080DC09 /* Frameworks */,
+				57C68B171E51BA290080DC09 /* Resources */,
+				5AA65DC8D6D36ABFA1E7F870 /* [CP] Embed Pods Frameworks */,
+				117D5C898E396709B077D889 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudIMTest;
+			productName = CloudIMTest;
+			productReference = 57C68B191E51BA290080DC09 /* CloudIMTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C68B111E51BA290080DC09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Weibin Luo";
+				TargetAttributes = {
+					57C68B181E51BA290080DC09 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 33665885P3;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 57C68B141E51BA290080DC09 /* Build configuration list for PBXProject "CloudIMTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57C68B101E51BA290080DC09;
+			productRefGroup = 57C68B1A1E51BA290080DC09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C68B181E51BA290080DC09 /* CloudIMTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C68B171E51BA290080DC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C68B271E51BA290080DC09 /* LaunchScreen.storyboard in Resources */,
+				57C68B241E51BA290080DC09 /* Assets.xcassets in Resources */,
+				57C68B2F1E51BA380080DC09 /* Podfile in Resources */,
+				57C68B221E51BA290080DC09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		117D5C898E396709B077D889 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudIMTest/Pods-CloudIMTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AA65DC8D6D36ABFA1E7F870 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudIMTest/Pods-CloudIMTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB33A48BE85D81CC78952513 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C68B151E51BA290080DC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C68B1F1E51BA290080DC09 /* ViewController.swift in Sources */,
+				57C68B1D1E51BA290080DC09 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57C68B201E51BA290080DC09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C68B211E51BA290080DC09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57C68B251E51BA290080DC09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C68B261E51BA290080DC09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57C68B291E51BA290080DC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57C68B2A1E51BA290080DC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57C68B2C1E51BA290080DC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE5539AF1C829D19EF1B6E3 /* Pods-CloudIMTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 33665885P3;
+				INFOPLIST_FILE = CloudIMTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weibin.CloudIMTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudIMTest/CloudIMTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		57C68B2D1E51BA290080DC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A8E4DB452F4F918497099F /* Pods-CloudIMTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 33665885P3;
+				INFOPLIST_FILE = CloudIMTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weibin.CloudIMTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudIMTest/CloudIMTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57C68B141E51BA290080DC09 /* Build configuration list for PBXProject "CloudIMTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C68B291E51BA290080DC09 /* Debug */,
+				57C68B2A1E51BA290080DC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C68B2B1E51BA290080DC09 /* Build configuration list for PBXNativeTarget "CloudIMTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C68B2C1E51BA290080DC09 /* Debug */,
+				57C68B2D1E51BA290080DC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57C68B111E51BA290080DC09 /* Project object */;
+}
