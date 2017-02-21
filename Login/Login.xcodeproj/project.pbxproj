@@ -12,6 +12,7 @@
 		573BD4CF1E5B1963009D94CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573BD4CD1E5B1963009D94CF /* Main.storyboard */; };
 		573BD4D11E5B1963009D94CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573BD4D01E5B1963009D94CF /* Assets.xcassets */; };
 		573BD4D41E5B1963009D94CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573BD4D21E5B1963009D94CF /* LaunchScreen.storyboard */; };
+		573BD4DC1E5C32A4009D94CF /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BD4DB1E5C32A4009D94CF /* LoginTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		573BD4D01E5B1963009D94CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		573BD4D31E5B1963009D94CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		573BD4D51E5B1963009D94CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573BD4DB1E5C32A4009D94CF /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				573BD4C91E5B1963009D94CF /* AppDelegate.swift */,
 				573BD4CB1E5B1963009D94CF /* ViewController.swift */,
 				573BD4CD1E5B1963009D94CF /* Main.storyboard */,
+				573BD4DB1E5C32A4009D94CF /* LoginTextField.swift */,
 				573BD4D01E5B1963009D94CF /* Assets.xcassets */,
 				573BD4D21E5B1963009D94CF /* LaunchScreen.storyboard */,
 				573BD4D51E5B1963009D94CF /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573BD4DC1E5C32A4009D94CF /* LoginTextField.swift in Sources */,
 				573BD4CC1E5B1963009D94CF /* ViewController.swift in Sources */,
 				573BD4CA1E5B1963009D94CF /* AppDelegate.swift in Sources */,
 			);
