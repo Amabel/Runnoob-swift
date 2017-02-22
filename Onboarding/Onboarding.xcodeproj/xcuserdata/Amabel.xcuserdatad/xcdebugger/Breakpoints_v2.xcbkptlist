@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Onboarding/ViewController.swift"
+            timestampString = "509381720.56481"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Onboarding.ViewController.__deallocating_deinit"
+                  moduleName = "Onboarding"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Amabel/Github/Runnoob-swift/Onboarding/Onboarding/ViewController.swift"
+                  timestampString = "509381721.236179"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Onboarding.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Onboarding.ViewController"
+                  moduleName = "Onboarding"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Amabel/Github/Runnoob-swift/Onboarding/Onboarding/ViewController.swift"
+                  timestampString = "509381721.238364"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Onboarding.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Onboarding.ViewController"
+                  moduleName = "Onboarding"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Amabel/Github/Runnoob-swift/Onboarding/Onboarding/ViewController.swift"
+                  timestampString = "509381721.240043"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Onboarding.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Onboarding.ViewController&gt;"
+                  moduleName = "Onboarding"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Amabel/Github/Runnoob-swift/Onboarding/Onboarding/ViewController.swift"
+                  timestampString = "509381721.241533"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Onboarding.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Onboarding.ViewController&gt;"
+                  moduleName = "Onboarding"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Amabel/Github/Runnoob-swift/Onboarding/Onboarding/ViewController.swift"
+                  timestampString = "509381721.242782"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
