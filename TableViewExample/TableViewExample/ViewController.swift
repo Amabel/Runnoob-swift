@@ -37,7 +37,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let selectedItem = data[indexPath.row]
+        print("Item \(selectedItem) selected")
     }
 
     override func didReceiveMemoryWarning() {
